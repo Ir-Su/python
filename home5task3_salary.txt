@@ -1,0 +1,4 @@
+Smith: 10000
+Jackson: 2000
+Orwell: 20000
+Hichkok: 75000
