@@ -1,0 +1,3 @@
+Smithfirm 000 10000  2000
+Jacksonfirm 000 2000 2500
+Orwellfirm 000 20000 1000
