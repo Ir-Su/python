@@ -189,13 +189,19 @@ class_count.plot(kind='bar', logx=True)
 plt.show()
 
 
-# In[170]:
+# In[171]:
 
 
 class0 = creditcard.loc[creditcard['Class'] == 0, ['V1']]
 class1 = creditcard.loc[creditcard['Class'] == 1, ['V1']]
-plt.hist(class0['V1'], bins=20, density=True, label='Class 0', color='darkgrey')
-plt.hist(class1['V1'], bins=20, density=True, label='Class 1', color='grey')
+plt.hist(class0['V1'], bins=20, density=True, alpha=0.5, label='Class 0', color='grey')
+plt.hist(class1['V1'], bins=20, density=True, alpha=0.5, label='Class 1', color='red')
 plt.legend()
 plt.show()
+
+
+# In[ ]:
+
+
+
 
